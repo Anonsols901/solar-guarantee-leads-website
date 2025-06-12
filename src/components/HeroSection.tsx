@@ -1,11 +1,10 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from 'lucide-react';
 
 const HeroSection = () => {
   const handleGetMoreCustomers = () => {
-    window.open('https://calendly.com/solarsmartleads/30min', '_blank');
+    window.open('https://calendly.com/solarsmartleads/new-meeting', '_blank');
   };
 
   return (

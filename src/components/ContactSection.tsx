@@ -1,11 +1,10 @@
-
 import React from 'react';
 import { CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ContactSection = () => {
   const handleScheduleCall = () => {
-    window.open('https://calendly.com/solarsmartleads/30min', '_blank');
+    window.open('https://calendly.com/solarsmartleads/new-meeting', '_blank');
   };
 
   return (

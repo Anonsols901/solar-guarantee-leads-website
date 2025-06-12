@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { cn } from '@/lib/utils';
@@ -11,7 +10,7 @@ const Navbar = () => {
   };
 
   const handleGetMoreCustomers = () => {
-    window.open('https://calendly.com/solarsmartleads/30min', '_blank');
+    window.open('https://calendly.com/solarsmartleads/new-meeting', '_blank');
   };
 
   return (
